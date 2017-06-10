@@ -2,48 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e8dac73-a50f-4a64-aa58-17f1496d51f9" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/info/blockchain/api/createwallet/CreateWallet.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/info/blockchain/api/createwallet/CreateWalletResponse.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/info/blockchain/api/etc/Base58.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/info/blockchain/api/pushtx/PushTx.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/info/blockchain/api/receive/Receive.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/info/blockchain/api/receive/ReceiveResponse.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/info/blockchain/api/statistics/Statistics.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/info/blockchain/api/statistics/StatisticsResponse.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/info/blockchain/api/APIException.java" afterPath="$PROJECT_DIR$/src/main/java/net/osmand/coinsender/APIException.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/info/blockchain/api/HttpClient.java" afterPath="$PROJECT_DIR$/src/main/java/net/osmand/coinsender/HttpClient.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/info/blockchain/api/HttpClientInterface.java" afterPath="$PROJECT_DIR$/src/main/java/net/osmand/coinsender/HttpClientInterface.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/info/blockchain/api/OkClient.java" afterPath="$PROJECT_DIR$/src/main/java/net/osmand/coinsender/OkClient.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/info/blockchain/api/Util.java" afterPath="$PROJECT_DIR$/src/main/java/net/osmand/coinsender/Util.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/info/blockchain/api/blockexplorer/Address.java" afterPath="$PROJECT_DIR$/src/main/java/net/osmand/coinsender/blockexplorer/Address.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/info/blockchain/api/blockexplorer/Block.java" afterPath="$PROJECT_DIR$/src/main/java/net/osmand/coinsender/blockexplorer/Block.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/info/blockchain/api/blockexplorer/BlockExplorer.java" afterPath="$PROJECT_DIR$/src/main/java/net/osmand/coinsender/blockexplorer/BlockExplorer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/info/blockchain/api/blockexplorer/Input.java" afterPath="$PROJECT_DIR$/src/main/java/net/osmand/coinsender/blockexplorer/Input.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/info/blockchain/api/blockexplorer/InventoryData.java" afterPath="$PROJECT_DIR$/src/main/java/net/osmand/coinsender/blockexplorer/InventoryData.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/info/blockchain/api/blockexplorer/LatestBlock.java" afterPath="$PROJECT_DIR$/src/main/java/net/osmand/coinsender/blockexplorer/LatestBlock.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/info/blockchain/api/blockexplorer/Output.java" afterPath="$PROJECT_DIR$/src/main/java/net/osmand/coinsender/blockexplorer/Output.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/info/blockchain/api/blockexplorer/SimpleBlock.java" afterPath="$PROJECT_DIR$/src/main/java/net/osmand/coinsender/blockexplorer/SimpleBlock.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/info/blockchain/api/blockexplorer/Transaction.java" afterPath="$PROJECT_DIR$/src/main/java/net/osmand/coinsender/blockexplorer/Transaction.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/info/blockchain/api/blockexplorer/UnspentOutput.java" afterPath="$PROJECT_DIR$/src/main/java/net/osmand/coinsender/blockexplorer/UnspentOutput.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/info/blockchain/api/exchangerates/Currency.java" afterPath="$PROJECT_DIR$/src/main/java/net/osmand/coinsender/exchangerates/Currency.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/info/blockchain/api/exchangerates/ExchangeRates.java" afterPath="$PROJECT_DIR$/src/main/java/net/osmand/coinsender/exchangerates/ExchangeRates.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/info/blockchain/api/wallet/Address.java" afterPath="$PROJECT_DIR$/src/main/java/net/osmand/coinsender/wallet/Address.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/info/blockchain/api/wallet/PaymentResponse.java" afterPath="$PROJECT_DIR$/src/main/java/net/osmand/coinsender/wallet/PaymentResponse.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/info/blockchain/api/wallet/Wallet.java" afterPath="$PROJECT_DIR$/src/main/java/net/osmand/coinsender/wallet/Wallet.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/info/blockchain/api/AppTest.java" afterPath="$PROJECT_DIR$/src/test/java/net/osmand/coinsender/AppTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.classpath" afterPath="$PROJECT_DIR$/.classpath" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.project" afterPath="$PROJECT_DIR$/.project" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LICENSE.txt" afterPath="$PROJECT_DIR$/LICENSE.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/blockexplorer.md" afterPath="$PROJECT_DIR$/docs/blockexplorer.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/createwallet.md" afterPath="$PROJECT_DIR$/docs/createwallet.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/exchangerates.md" afterPath="$PROJECT_DIR$/docs/exchangerates.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/pushtx.md" afterPath="$PROJECT_DIR$/docs/pushtx.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/receive.md" afterPath="$PROJECT_DIR$/docs/receive.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/statistics.md" afterPath="$PROJECT_DIR$/docs/statistics.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/wallet.md" afterPath="$PROJECT_DIR$/docs/wallet.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -59,12 +18,10 @@
       <file leaf-file-name="CoinSenderMain.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/net/osmand/coinsender/CoinSenderMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-264">
-              <caret line="34" column="68" lean-forward="true" selection-start-line="34" selection-start-column="68" selection-end-line="34" selection-end-column="68" />
+            <state relative-caret-position="18">
+              <caret line="34" column="68" lean-forward="false" selection-start-line="34" selection-start-column="68" selection-end-line="34" selection-end-column="68" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2389#2390#0" expanded="true" />
-                <element signature="e#2427#2428#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -83,11 +40,10 @@
       <file leaf-file-name="Wallet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/net/osmand/coinsender/wallet/Wallet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
+            <state relative-caret-position="1638">
               <caret line="106" column="18" lean-forward="false" selection-start-line="106" selection-start-column="18" selection-end-line="106" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3161#3175#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -144,8 +100,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -248,7 +202,9 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -468,7 +424,6 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -476,7 +431,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32922733" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32922733" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25506938" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25773746" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -489,6 +444,7 @@
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -516,19 +472,24 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2389#2390#0" expanded="true" />
-            <element signature="e#2427#2428#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/osmand/coinsender/Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/osmand/coinsender/wallet/Wallet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2700">
-          <caret line="150" column="3" lean-forward="true" selection-start-line="150" selection-start-column="3" selection-end-line="150" selection-end-column="3" />
+        <state relative-caret-position="1908">
+          <caret line="106" column="18" lean-forward="false" selection-start-line="106" selection-start-column="18" selection-end-line="106" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3161#3175#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -539,8 +500,26 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2389#2390#0" expanded="true" />
-            <element signature="e#2427#2428#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/osmand/coinsender/wallet/Wallet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2700">
+          <caret line="150" column="3" lean-forward="true" selection-start-line="150" selection-start-column="3" selection-end-line="150" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/osmand/coinsender/CoinSenderMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -664,23 +643,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/osmand/coinsender/wallet/Wallet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
+        <state relative-caret-position="1638">
           <caret line="106" column="18" lean-forward="false" selection-start-line="106" selection-start-column="18" selection-end-line="106" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3161#3175#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1601">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/osmand/coinsender/CoinSenderMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-264">
-          <caret line="34" column="68" lean-forward="true" selection-start-line="34" selection-start-column="68" selection-end-line="34" selection-end-column="68" />
+        <state relative-caret-position="18">
+          <caret line="34" column="68" lean-forward="false" selection-start-line="34" selection-start-column="68" selection-end-line="34" selection-end-column="68" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2389#2390#0" expanded="true" />
-            <element signature="e#2427#2428#0" expanded="true" />
           </folding>
         </state>
       </provider>
