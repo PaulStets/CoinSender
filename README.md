@@ -84,7 +84,7 @@ All methods may throw exceptions caused by incorrectly passed parameters or othe
 It is possible to set arbitrary connection timeouts.
 
 ```java
-info.blockchain.api.HttpClient.TIMEOUT_MS = 2000; // time out after 2000 milliseconds
+HttpClient.TIMEOUT_MS = 2000; // time out after 2000 milliseconds
 ```
 
 ###Request limits and API keys
