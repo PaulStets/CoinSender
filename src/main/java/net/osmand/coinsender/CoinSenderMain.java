@@ -84,7 +84,9 @@ public class CoinSenderMain {
             }
             else if (args[0].equals("--send")) {
                 boolean done = false;
+                List<Integer> paidChunks = new ArrayList<>();
                 while (!done) {
+                    System.out.println("Number of chunks: " + splitPayment.size());
                     System.out.print("Enter the number of chunk you want to pay for ('-1' to exit): ");
                     int chunk = in.nextInt();
                     if (chunk == -1) {
@@ -94,6 +96,7 @@ public class CoinSenderMain {
                         System.out.print("Please enter a number between 0 and " + splitPayment.size() + ": ");
                         chunk = in.nextInt();
                     }
+                    paidChunks.add(chunk);
                     Map<String, Long> currentPayment = splitPayment.get(chunk);
                     System.out.println("All payments: ");
                     Long total = 0l;
@@ -101,8 +104,10 @@ public class CoinSenderMain {
                         total += currentPayment.get(key);
                         System.out.println("Address: " + key + ", BTC: " + (currentPayment.get(key) * 0.00000001));
                     }
-                    System.out.print("Are you sure yo want to pay " + (Double) (total * 0.00000001) + " BTC? [y/n]: ");
-                    String answer = in.nextLine();
+                    Scanner scanner = new Scanner(System.in);
+                    System.out.print("Are you sure you want to pay " + (total * 0.00000001) + " BTC? [y/n]: ");
+                    String answer = scanner.nextLine();
+
                     if (!answer.toLowerCase().equals("y")) {
                         break;
                     }
@@ -113,9 +118,14 @@ public class CoinSenderMain {
                     } catch (APIException e) {
                         e.printStackTrace();
                     }
-                    System.out.println(paymentResponse.getMessage());
-                    System.out.println("Transaction Successful!");
-
+                    if (paymentResponse != null) {
+                        System.out.println(paymentResponse.getMessage());
+                        System.out.println("Transaction Successful!");
+                        System.out.println("You have paid for these chunks: " + paidChunks.toString());
+                    }
+                    else {
+                        System.out.println("Transaction failed!");
+                    }
                 }
             }
 
