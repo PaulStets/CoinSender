@@ -24,8 +24,8 @@
       <file leaf-file-name="CoinSenderMain.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/net/osmand/coinsender/CoinSenderMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="990">
-              <caret line="127" column="21" lean-forward="false" selection-start-line="127" selection-start-column="21" selection-end-line="127" selection-end-column="21" />
+            <state relative-caret-position="924">
+              <caret line="155" column="17" lean-forward="true" selection-start-line="155" selection-start-column="17" selection-end-line="155" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -46,10 +46,11 @@
       <file leaf-file-name="Wallet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/net/osmand/coinsender/wallet/Wallet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1638">
-              <caret line="106" column="18" lean-forward="false" selection-start-line="106" selection-start-column="18" selection-end-line="106" selection-end-column="18" />
+            <state relative-caret-position="18">
+              <caret line="106" column="61" lean-forward="false" selection-start-line="106" selection-start-column="61" selection-end-line="106" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#3161#3175#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -468,7 +469,14 @@
       <option name="project" value="LOCAL" />
       <updated>1497110112259</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added --prepare and --send args.">
+      <created>1497260805898</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1497260805898</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -515,14 +523,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/net/osmand/coinsender/CoinSenderMain.java</url>
-          <line>79</line>
-          <properties />
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="22" />
     </breakpoint-manager>
     <watches-manager />
@@ -556,6 +556,7 @@
           <caret line="106" column="18" lean-forward="false" selection-start-line="106" selection-start-column="18" selection-end-line="106" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#3161#3175#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -592,6 +593,7 @@
           <caret line="106" column="18" lean-forward="false" selection-start-line="106" selection-start-column="18" selection-end-line="106" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#3161#3175#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -620,6 +622,7 @@
           <caret line="106" column="18" lean-forward="false" selection-start-line="106" selection-start-column="18" selection-end-line="106" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#3161#3175#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -648,6 +651,7 @@
           <caret line="106" column="18" lean-forward="false" selection-start-line="106" selection-start-column="18" selection-end-line="106" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#3161#3175#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -668,6 +672,7 @@
           <caret line="150" column="3" lean-forward="true" selection-start-line="150" selection-start-column="3" selection-end-line="150" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#3161#3175#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -802,16 +807,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/osmand/coinsender/wallet/Wallet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1638">
-          <caret line="106" column="18" lean-forward="false" selection-start-line="106" selection-start-column="18" selection-end-line="106" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/osmand/coinsender/wallet/PaymentResponse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -820,10 +815,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/osmand/coinsender/wallet/Wallet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="106" column="61" lean-forward="false" selection-start-line="106" selection-start-column="61" selection-end-line="106" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3161#3175#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/osmand/coinsender/CoinSenderMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="127" column="21" lean-forward="false" selection-start-line="127" selection-start-column="21" selection-end-line="127" selection-end-column="21" />
+        <state relative-caret-position="924">
+          <caret line="155" column="17" lean-forward="true" selection-start-line="155" selection-start-column="17" selection-end-line="155" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
